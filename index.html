@@ -3,182 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdur Rahim | Portfolio</title>
-
-    <!-- Google Font -->
+    <title>Abdur Rahim Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="styles.css/portfolio.css">
 </head>
-
 <body class="font-open-sans">
+    <header>
+        <nav>
+            <div class="logo">
+                <h2><span class="color-orange">A</span>bdur<samp class="color-orange">R</samp>ahim</h2>
+            </div>
+            <ul class="menu">
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">blog</a></li>
+                <li><button class="btn">Hire me</button></li>
+            </ul>
+        </nav>
 
-<header>
-    <nav>
-        <div class="logo">
-            <h2><span class="color-orange">A</span>bdur <span class="color-orange">R</span>ahim</h2>
-        </div>
+        <section id="banner">
 
-        <ul class="menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><button class="btn">Hire me</button></li>
-        </ul>
-    </nav>
+            <div class="banner-contant">
+                <h2>Hey, I am</h2>
+                <h1>Abdur Rahim</h1>
+                <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                <div>
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Contact</button>
+                </div>
+            </div>
+            <div class="banner-img">
+                <img src="images/hardy.png" alt="">
+            </div>
 
-    <section id="banner">
-        <div class="banner-content">
-            <h2>Hey, I am</h2>
-            <h1>Abdur Rahim</h1>
-            <p>Frontend Developer passionate about building clean, modern and responsive web applications.</p>
+        </section>
+    </header>
 
-            <div>
-                <button class="btn">Download CV</button>
-                <button class="btn">Contact</button>
+    <section id="about">
+        <div class="about-content">
+            <div class="section-heading">
+                <h2>About me</h2>
+                <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            </div>
+            <div class="about-info">
+                <div class="about-card">
+                    <p>Name</p>
+                    <h4>Abdur Rahim</h4>
+                </div>
+                <div class="about-card">
+                    <p>Email</p>
+                    <h4>abdurrahim04@gmail.com</h4>
+                </div>
+                <div class="about-card">
+                    <p>Date of birth</p>
+                    <h4>18 February,1998</h4>
+                </div>
+                <div class="about-card">
+                    <p>From</p>
+                    <h4>Rajshahi,Bangladesh</h4>
+                </div>
             </div>
         </div>
 
-        <div class="banner-img">
-            <img src="images/hardy.png" alt="Abdur Rahim">
+    </section>
+
+    <section id="skills">
+        <div class="skills-container">
+            <div class="section-heading">
+                <h2>What I do</h2>
+                <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-card">
+                    <img src="images/icons/js.png" alt="">
+                    <h3>Vanilla JavaScript</h3>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills-card">
+                    <img src="images/icons/react.png" alt="">
+                    <h3>React</h3>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills-card">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h3>Node.js</h3>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skills-card">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h3>MongoDB</h3>
+                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+            
         </div>
     </section>
-</header>
 
-<!-- ABOUT -->
-<section id="about">
-    <div class="about-content">
+    <section id="resume">
         <div class="section-heading">
-            <h2>About Me</h2>
-            <p>I am a passionate web developer focused on building clean, responsive and user-friendly websites. Currently I am exploring React.js and modern frontend development.</p>
+            <h2>A summary of My Resume</h2>
         </div>
+            <div class="resume-container">
+                <div class="education">
+                    <h2 class="section-title">My Education</h2>
+                    <div class="resume-card">
+                        <h3 class="card-title">Master in Computer Engineering</h3>
+                        <p class="card-info">Harvard University / 2015 - 2017</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-card">
+                        <h3 class="card-title">Master in Computer Engineering</h3>
+                        <p class="card-info">Harvard University / 2015 - 2017</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-card">
+                        <h3 class="card-title">Master in Computer Engineering</h3>
+                        <p class="card-info">Harvard University / 2015 - 2017</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
 
-        <div class="about-info">
-            <div class="about-card">
-                <p>Name</p>
-                <h4>Abdur Rahim</h4>
+                </div>
+
+
+                <div class="experience">
+                    <h2 class="section-title">My Experience</h2>
+                    <div class="resume-card">
+                        <h3 class="card-title">Sr. Font End Developer</h3>
+                        <p class="card-info">Apple Inc / 2020 - Current</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-card">
+                        <h3 class="card-title">Jr. Font End Developer</h3>
+                        <p class="card-info">Dribbble Inc / 2018 - 2022</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-card">
+                        <h3 class="card-title">HTML Developer</h3>
+                        <p class="card-info">Adobe Inc / 2017 - 2018</p>
+                        <p class="card-text">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    </div>
             </div>
 
-            <div class="about-card">
-                <p>Email</p>
-                <h4>abdurrahim04@gmail.com</h4>
+    </section>
+
+    <div class="text-center">
+         <button class="btn">Download CV</button>
+     </div>
+
+     <footer>
+        <section class="footer-container">
+            <div class="social">
+                <h2>Lets Connect</h2>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="icons">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                </div>
             </div>
 
-            <div class="about-card">
-                <p>From</p>
-                <h4>Rajshahi, Bangladesh</h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-    <div class="skills-container">
-
-        <div class="section-heading">
-            <h2>What I Do</h2>
-            <p>Technologies I use to build modern web applications.</p>
-        </div>
-
-        <div class="skills-box">
-
-            <div class="skills-card">
-                <img src="images/icons/js.png" alt="">
-                <h3>JavaScript</h3>
-                <p>Core programming language for interactive web apps.</p>
-            </div>
-
-            <div class="skills-card">
-                <img src="images/icons/react.png" alt="">
-                <h3>React</h3>
-                <p>Component-based UI development library.</p>
-            </div>
-
-            <div class="skills-card">
-                <img src="images/icons/nodejs.png" alt="">
-                <h3>Node.js</h3>
-                <p>Backend runtime for scalable applications.</p>
-            </div>
-
-            <div class="skills-card">
-                <img src="images/icons/mongo.png" alt="">
-                <h3>MongoDB</h3>
-                <p>NoSQL database for modern applications.</p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!-- RESUME -->
-<section id="resume">
-
-    <div class="section-heading">
-        <h2>My Resume</h2>
-    </div>
-
-    <div class="resume-container">
-
-        <div class="education">
-            <h2 class="section-title">Education</h2>
-
-            <div class="resume-card">
-                <h3>Computer Engineering</h3>
-                <p>University - 2015 to 2019</p>
-                <p>Studied software engineering and web development fundamentals.</p>
-            </div>
-
-        </div>
-
-        <div class="experience">
-            <h2 class="section-title">Experience</h2>
-
-            <div class="resume-card">
-                <h3>Frontend Developer</h3>
-                <p>Freelance - Present</p>
-                <p>Building responsive and modern web applications.</p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-<div class="text-center">
-    <button class="btn">Download CV</button>
-</div>
-
-<!-- FOOTER -->
-<footer>
-    <div class="footer-container">
-
-        <div class="social">
-            <h2>Let’s Connect</h2>
-            <p>Feel free to contact me for collaboration or projects.</p>
-
-            <div class="icons">
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Facebook</a>
-            </div>
-        </div>
-
-        <form class="form">
-            <h2>Message Me</h2>
-
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea rows="5" placeholder="Message"></textarea>
-
-            <input class="btn" type="submit">
-        </form>
-
-    </div>
-</footer>
-
+            <form class="form">
+                <h2>Let’s Message me</h2>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your name">
+                </div>
+                <div class="">
+                     <input type="text" name="" id="" placeholder="Your email">
+                </div>
+                <div class="">
+                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <input class="btn" type="submit" name="submit" id="">
+            </form>
+        </section>
+     </footer>
 </body>
 </html>
