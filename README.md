@@ -28,7 +28,7 @@ It is fully responsive, modern, and optimized for all devices.
 ---
 
 ## 📸 Screenshot
-![Portfolio Screenshot](./screenshot.png)
+![Portfolio Screenshot](./screenshot1.png)
 
 ---
 
